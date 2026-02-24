@@ -1,0 +1,58 @@
+$date
+	Mon Feb 23 22:36:01 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_top $end
+$var wire 1 ! OPEN $end
+$var reg 1 " ENABLE $end
+$var reg 4 # KEY [3:0] $end
+$scope module DUT $end
+$var wire 1 " ENABLE $end
+$var wire 4 $ KEY [3:0] $end
+$var wire 1 % match_signal $end
+$var wire 1 ! OPEN $end
+$scope module U1 $end
+$var wire 4 & KEY [3:0] $end
+$var wire 1 % MATCH $end
+$var wire 1 ' n0 $end
+$var wire 1 ( n2 $end
+$upscope $end
+$scope module U2 $end
+$var wire 1 " ENABLE $end
+$var wire 1 % MATCH $end
+$var wire 1 ! OPEN $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1(
+1'
+b1010 &
+1%
+b1010 $
+b1010 #
+1"
+1!
+$end
+#10
+0!
+0'
+0%
+b1001 #
+b1001 $
+b1001 &
+#20
+1%
+1'
+0"
+b1010 #
+b1010 $
+b1010 &
+#30

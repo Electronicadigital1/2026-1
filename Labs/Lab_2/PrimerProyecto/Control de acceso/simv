@@ -1,0 +1,81 @@
+#! /usr/bin/vvp
+:ivl_version "11.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x65007d919cc0 .scope module, "tb_top" "tb_top" 2 1;
+ .timescale 0 0;
+v0x65007d9302e0_0 .var "ENABLE", 0 0;
+v0x65007d9303d0_0 .var "KEY", 3 0;
+v0x65007d9304e0_0 .net "OPEN", 0 0, L_0x65007d930bb0;  1 drivers
+S_0x65007d919e50 .scope module, "DUT" "top" 2 7, 3 1 0, S_0x65007d919cc0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "KEY";
+    .port_info 1 /INPUT 1 "ENABLE";
+    .port_info 2 /OUTPUT 1 "OPEN";
+v0x65007d92ff30_0 .net "ENABLE", 0 0, v0x65007d9302e0_0;  1 drivers
+v0x65007d930000_0 .net "KEY", 3 0, v0x65007d9303d0_0;  1 drivers
+v0x65007d9300d0_0 .net "OPEN", 0 0, L_0x65007d930bb0;  alias, 1 drivers
+v0x65007d9301d0_0 .net "match_signal", 0 0, L_0x65007d9308b0;  1 drivers
+S_0x65007d91b6a0 .scope module, "U1" "key_compare" 3 9, 4 1 0, S_0x65007d919e50;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "KEY";
+    .port_info 1 /OUTPUT 1 "MATCH";
+L_0x65007d9305d0 .functor NOT 1, L_0x65007d930640, C4<0>, C4<0>, C4<0>;
+L_0x65007d930730 .functor NOT 1, L_0x65007d9307c0, C4<0>, C4<0>, C4<0>;
+L_0x65007d9308b0 .functor AND 1, L_0x65007d9309a0, L_0x65007d9305d0, L_0x65007d930a90, L_0x65007d930730;
+v0x65007d91b880_0 .net "KEY", 3 0, v0x65007d9303d0_0;  alias, 1 drivers
+v0x65007d92f400_0 .net "MATCH", 0 0, L_0x65007d9308b0;  alias, 1 drivers
+v0x65007d92f4c0_0 .net *"_ivl_10", 0 0, L_0x65007d930a90;  1 drivers
+v0x65007d92f580_0 .net *"_ivl_2", 0 0, L_0x65007d930640;  1 drivers
+v0x65007d92f660_0 .net *"_ivl_5", 0 0, L_0x65007d9307c0;  1 drivers
+v0x65007d92f790_0 .net *"_ivl_8", 0 0, L_0x65007d9309a0;  1 drivers
+v0x65007d92f870_0 .net "n0", 0 0, L_0x65007d930730;  1 drivers
+v0x65007d92f930_0 .net "n2", 0 0, L_0x65007d9305d0;  1 drivers
+L_0x65007d930640 .part v0x65007d9303d0_0, 2, 1;
+L_0x65007d9307c0 .part v0x65007d9303d0_0, 0, 1;
+L_0x65007d9309a0 .part v0x65007d9303d0_0, 3, 1;
+L_0x65007d930a90 .part v0x65007d9303d0_0, 1, 1;
+S_0x65007d92fa50 .scope module, "U2" "enable_control" 3 13, 5 1 0, S_0x65007d919e50;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "MATCH";
+    .port_info 1 /INPUT 1 "ENABLE";
+    .port_info 2 /OUTPUT 1 "OPEN";
+L_0x65007d930bb0 .functor AND 1, L_0x65007d9308b0, v0x65007d9302e0_0, C4<1>, C4<1>;
+v0x65007d92fc80_0 .net "ENABLE", 0 0, v0x65007d9302e0_0;  alias, 1 drivers
+v0x65007d92fd60_0 .net "MATCH", 0 0, L_0x65007d9308b0;  alias, 1 drivers
+v0x65007d92fe20_0 .net "OPEN", 0 0, L_0x65007d930bb0;  alias, 1 drivers
+    .scope S_0x65007d919cc0;
+T_0 ;
+    %vpi_call 2 10 "$dumpfile", "wave.vcd" {0 0 0};
+    %vpi_call 2 11 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x65007d919cc0 {0 0 0};
+    %pushi/vec4 10, 0, 4;
+    %store/vec4 v0x65007d9303d0_0, 0, 4;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x65007d9302e0_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 9, 0, 4;
+    %store/vec4 v0x65007d9303d0_0, 0, 4;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x65007d9302e0_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 10, 0, 4;
+    %store/vec4 v0x65007d9303d0_0, 0, 4;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x65007d9302e0_0, 0, 1;
+    %delay 10, 0;
+    %vpi_call 2 21 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 6;
+    "N/A";
+    "<interactive>";
+    "testbench.v";
+    "top.v";
+    "key_compare.v";
+    "enable_control.v";
