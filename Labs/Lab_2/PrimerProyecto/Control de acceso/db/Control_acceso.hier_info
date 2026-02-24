@@ -1,0 +1,23 @@
+|top
+KEY[0] => KEY[0].IN1
+KEY[1] => KEY[1].IN1
+KEY[2] => KEY[2].IN1
+KEY[3] => KEY[3].IN1
+ENABLE => ENABLE.IN1
+OPEN << enable_control:U2.OPEN
+
+
+|top|key_compare:U1
+KEY[0] => WideAnd0.IN0
+KEY[1] => WideAnd0.IN1
+KEY[2] => WideAnd0.IN2
+KEY[3] => WideAnd0.IN3
+MATCH <= WideAnd0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|enable_control:U2
+MATCH => comb.IN0
+ENABLE => comb.IN1
+OPEN <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
