@@ -1,0 +1,37 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Tue Mar 24 04:36:37 2026
+[*]
+[dumpfile] "/home/darkspartan345/2026-1/Ejemplos_Clase/Codificadores_mux_demux/sensor_system.vcd"
+[dumpfile_mtime] "Tue Mar 24 04:24:42 2026"
+[dumpfile_size] 2401
+[savefile] "/home/darkspartan345/2026-1/Ejemplos_Clase/Codificadores_mux_demux/Simulation.gtkw"
+[timestart] 21300
+[size] 1000 600
+[pos] -1 -1
+*-15.000000 90000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] sensor_system_tb.
+[treeopen] sensor_system_tb.uut.
+[sst_width] 233
+[signals_width] 238
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@24
+sensor_system_tb.bcd_data[7:0]
+@28
+sensor_system_tb.enable0
+sensor_system_tb.enable1
+sensor_system_tb.enable2
+sensor_system_tb.enable3
+@24
+sensor_system_tb.sensor0[3:0]
+sensor_system_tb.sensor1[3:0]
+sensor_system_tb.sensor2[3:0]
+sensor_system_tb.sensor3[3:0]
+@29
+sensor_system_tb.uut.bcd_inst.bcd[7:0]
+@24
+sensor_system_tb.uut.bcd_inst.bin[3:0]
+sensor_system_tb.sel[1:0]
+[pattern_trace] 1
+[pattern_trace] 0
