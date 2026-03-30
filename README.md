@@ -103,7 +103,7 @@ El laboratorio se desarrolla bajo el siguiente esquema:
     <td>4-6 </td>
     <td>Decodificador BCD a 7 segmentos</td>
     <td><a href="/Labs/Lab_3/README.md">Lab_3</a></td>
-    <td><a href="">Link</a></td>
+    <td><a href="https://classroom.github.com/a/9G2RsupD">Link G5</a>, <a href="https://classroom.github.com/a/TJlGhGNm">Link G6</a></td>
     <td> 8 Mar</td>
     <td>10%</td>
   </tr>
