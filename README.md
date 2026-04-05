@@ -109,8 +109,8 @@ El laboratorio se desarrolla bajo el siguiente esquema:
   </tr>
   <tr>
     <td>6-8</td>
-    <td>Bonos</td>
-    <td><a href="/Labs/Lab_3/README.md">Lab_3</a></td>
+    <td>Circuitos Secuenciales,Contadores y PWM.</td>
+    <td><a href="/Labs/Lab_4/README.md">Lab_3</a></td>
     <td><a href="">Link</a></td>
     <td>22 Mar</td>
     <td>10%</td>

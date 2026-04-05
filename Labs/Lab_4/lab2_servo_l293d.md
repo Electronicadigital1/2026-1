@@ -1,5 +1,5 @@
 
-# Laboratorio 2  
+# Laboratorio 4 Parte 2  
 # Control de Servomotor usando PWM
 
 ## Objetivos
