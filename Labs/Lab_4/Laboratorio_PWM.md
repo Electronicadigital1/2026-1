@@ -81,7 +81,7 @@ Ejemplo conceptual:
 Un generador PWM digital se basa en tres bloques principales:
 
 <p align="center">
- <img src="/Labs/figs/labservo/pwm_led.png" alt="tex" width=600 >
+ <img src="/Labs/figs/labservo/pwm_led.png" alt="tex" width=1000 >
 </p>
 <p align="center">
  Figura 1
