@@ -1,5 +1,5 @@
 
-# Laboratorio 1  
+# Laboratorio 4 Parte 1  
 # Circuitos Secuenciales, Contadores y Generación de PWM
 
 ## Objetivos
