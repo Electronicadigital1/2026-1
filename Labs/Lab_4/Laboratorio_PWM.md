@@ -84,7 +84,7 @@ Un generador PWM digital se basa en tres bloques principales:
  <img src="/Labs/figs/labservo/pwm_led.png" alt="tex" width=1000 >
 </p>
 <p align="center">
- Figura 1
+ Figura 1: Esquema de PWM
 </p>
 
 Principio de funcionamiento:
