@@ -110,7 +110,7 @@ El laboratorio se desarrolla bajo el siguiente esquema:
   <tr>
     <td>6-8</td>
     <td>Circuitos Secuenciales,Contadores y PWM.</td>
-    <td><a href="/Labs/Lab_4/README.md">Lab_3</a></td>
+    <td><a href="/Labs/Lab_4/README.md">Lab_4</a></td>
     <td><a href="">Link</a></td>
     <td>22 Mar</td>
     <td>10%</td>
@@ -118,7 +118,7 @@ El laboratorio se desarrolla bajo el siguiente esquema:
   <tr>
     <td>8-9</td>
     <td>Contadores</td>
-    <td><a href="/Labs/Lab_3/README.md">Lab_3</a></td>
+    <td><a href="/Labs/Lab_3/README.md">Lab_5</a></td>
     <td><a href="">Link</a></td>
     <td>12 Abr</td>
     <td>10%</td>
@@ -126,7 +126,7 @@ El laboratorio se desarrolla bajo el siguiente esquema:
   <tr>
     <td>8-9</td>
     <td>Registros de desplazamiento</td>
-    <td><a href="/Labs/Lab_3/README.md">Lab_3</a></td>
+    <td><a href="/Labs/Lab_3/README.md">Lab_6</a></td>
     <td><a href="">Link</a></td>
     <td>26 Abr</td>
     <td>10%</td>
@@ -134,7 +134,7 @@ El laboratorio se desarrolla bajo el siguiente esquema:
   <tr>
     <td>8-9</td>
     <td>Maquinas de estado</td>
-    <td><a href="/Labs/Lab_3/README.md">Lab_3</a></td>
+    <td><a href="/Labs/Lab_3/README.md">Lab_7</a></td>
     <td><a href="">Link</a></td>
     <td>10 May</td>
     <td>10%</td>
@@ -142,7 +142,7 @@ El laboratorio se desarrolla bajo el siguiente esquema:
   <tr>
     <td>8-9</td>
     <td>LCD 16x2 en modo paralelo</td>
-    <td><a href="/Labs/Lab_4/README.md">Lab_4</a></td>
+    <td><a href="/Labs/Lab_4/README.md">Lab_8</a></td>
     <td><a href="">Link</a></td>
     <td> 13 Nov</td>
     <td>10%</td>
