@@ -111,7 +111,7 @@ El laboratorio se desarrolla bajo el siguiente esquema:
     <td>6-8</td>
     <td>Circuitos Secuenciales,Contadores y PWM.</td>
     <td><a href="/Labs/Lab_4/README.md">Lab_4</a></td>
-    <td><a href="">Link</a></td>
+    <td><a href="https://classroom.github.com/a/F_PPDPtc">Link G5</a>, <a href="https://classroom.github.com/a/bAentUCO">Link G6</a></td>
     <td>22 Mar</td>
     <td>10%</td>
   </tr>
