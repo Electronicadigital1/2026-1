@@ -88,7 +88,7 @@ El laboratorio se desarrolla bajo el siguiente esquema:
     <td>Comparación de tecnologías CMOS vs TTL</td>
     <td><a href="/Labs/Lab_1/README.md">Lab_1</a></td>
     <td><a href="https://classroom.github.com/a/9H91G-4q">Link G5</a>, <a href="https://classroom.github.com/a/FK4rAF88">Link G6</a></td>
-    <td> 22 feb</td>
+    <td> 11 Abril</td>
     <td>5%</td>
   </tr>
   <tr>
@@ -96,7 +96,7 @@ El laboratorio se desarrolla bajo el siguiente esquema:
     <td>Sumador de 1 y 4 bits y sumador/restador</td>
     <td><a href="/Labs/Lab_2/README.md">Lab_2</a></td>
     <td><a href="https://classroom.github.com/a/-kV7XGq5">Link G5</a>, <a href="https://classroom.github.com/a/jb92N8Ej">Link G6</a></td>
-    <td> 8 Mar</td>
+    <td> 18 Abril</td>
     <td>10%</td>
   </tr>
   <tr>
@@ -104,7 +104,7 @@ El laboratorio se desarrolla bajo el siguiente esquema:
     <td>Decodificador BCD a 7 segmentos</td>
     <td><a href="/Labs/Lab_3/README.md">Lab_3</a></td>
     <td><a href="https://classroom.github.com/a/9G2RsupD">Link G5</a>, <a href="https://classroom.github.com/a/TJlGhGNm">Link G6</a></td>
-    <td> 8 Mar</td>
+    <td> 2 May</td>
     <td>10%</td>
   </tr>
   <tr>
@@ -112,7 +112,7 @@ El laboratorio se desarrolla bajo el siguiente esquema:
     <td>Circuitos Secuenciales,Contadores y PWM.</td>
     <td><a href="/Labs/Lab_4/README.md">Lab_4</a></td>
     <td><a href="https://classroom.github.com/a/F_PPDPtc">Link G5</a>, <a href="https://classroom.github.com/a/bAentUCO">Link G6</a></td>
-    <td>22 Mar</td>
+    <td>16 May</td>
     <td>10%</td>
   </tr>
   <tr>
