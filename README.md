@@ -117,28 +117,13 @@ El laboratorio se desarrolla bajo el siguiente esquema:
   </tr>
   <tr>
     <td>8-9</td>
-    <td>Contadores</td>
-    <td><a href="/Labs/Lab_3/README.md">Lab_5</a></td>
+    <td>Diseño de una Cerradura Electrónica con Teclado Matricial y Control de Servo en FPGA</td>
+    <td><a href="/Labs/Lab_5/readme.md">Lab_5</a></td>
     <td><a href="">Link</a></td>
-    <td>12 Abr</td>
+    <td>30 May</td>
     <td>10%</td>
   </tr>
-  <tr>
-    <td>8-9</td>
-    <td>Registros de desplazamiento</td>
-    <td><a href="/Labs/Lab_3/README.md">Lab_6</a></td>
-    <td><a href="">Link</a></td>
-    <td>26 Abr</td>
-    <td>10%</td>
-  </tr> 
-  <tr>
-    <td>8-9</td>
-    <td>Maquinas de estado</td>
-    <td><a href="/Labs/Lab_3/README.md">Lab_7</a></td>
-    <td><a href="">Link</a></td>
-    <td>10 May</td>
-    <td>10%</td>
-  </tr>
+
   <tr>
     <td>8-9</td>
     <td>LCD 16x2 en modo paralelo</td>

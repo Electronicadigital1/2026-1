@@ -33,7 +33,10 @@ Se implementa un registro de 16 bits que almacena 4 dígitos BCD.
 
 Cada nuevo dígito desplaza el contenido 4 bits a la izquierda:
 
-    pass_in <= (pass_in << 4) | key_code;
+    pass_in[15:12] <= pass_in[11:8];
+    pass_in[11:8]  <= pass_in[7:4];
+    pass_in[7:4]   <= pass_in[3:0];
+    pass_in[3:0]   <= key_code;
 
 Ejemplo:
 
@@ -44,11 +47,7 @@ Resultado: 0001 0010 0011 0100
 
 ### 2.2 Validación de contraseña
 
-Se compara la entrada con una clave fija:
-
-    parameter PASSWORD = 16'h1234;
-
-    if (pass_in == PASSWORD)
+Se compara la entrada con una clave fija, esto se puede hacer bit a bit o mediante un restador digital la eleccion del circuito a implementar queda a decision del estudiante.
 
 ---
 
@@ -56,7 +55,7 @@ Se compara la entrada con una clave fija:
 
 Estados del sistema:
 
-    IDLE → INPUT → VERIFY → OPEN
+    IDLE → INPUT → VERIFY → OPEN/ERROR/Close
                      ↓
                    ERROR
 
@@ -85,9 +84,12 @@ El sistema debe:
 
 ### Paso 1: Registro de desplazamiento
 
-Implementar:
+Implementar o una descripcion de hardward similar:
 
-    pass_in <= (pass_in << 4) | key_code;
+    pass_in[15:12] <= pass_in[11:8];
+    pass_in[11:8]  <= pass_in[7:4];
+    pass_in[7:4]   <= pass_in[3:0];
+    pass_in[3:0]   <= key_code;
 
 ---
 
@@ -120,7 +122,8 @@ Controlar servo según resultado.
 - Captura correcta de dígitos  
 - Comparación correcta  
 - Servo responde correctamente  
-- LEDs indican estado  
+- LEDs indican estado (Eror,Estado de la puerta(Abierta o cerrada))
+- Implementacion del sistema real  
 
 ---
 

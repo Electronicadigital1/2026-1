@@ -30,6 +30,12 @@ Al finalizar esta parte del laboratorio, el estudiante será capaz de:
 ### 2.1 Teclado matricial
 
 Un teclado matricial organiza las teclas en filas y columnas, reduciendo el número de pines necesarios.
+<p align="center">
+ <img src="/Labs/figs/LabTecladoMatricial/arduino-teclado-matricial-interior.png" alt="tex" width=500 >
+</p>
+<p align="center">
+ Figura 1: Estructura interna del Teclado Matricial
+</p>
 
 ### 2.2 Escaneo
 
@@ -38,10 +44,19 @@ El sistema activa una fila a la vez y lee las columnas para detectar una tecla.
 ### 2.3 Detección
 
 Una tecla se identifica mediante la combinación fila-columna.
+<p align="center">
+ <img src="/Labs/figs/LabTecladoMatricial/Keypad.gif" alt="tex" width=500 >
+</p>
+<p align="center">
+ Figura 1: Escaneo Teclado Matricial
+</p>
+
 
 ### 2.4 Rebote
 
-Los botones generan ruido eléctrico, por lo que es necesario filtrar señales.
+Los botones mecánicos no generan transiciones limpias al ser presionados, sino que producen múltiples cambios rápidos de estado debido al rebote de sus contactos internos. Este fenómeno ocurre típicamente en un intervalo de entre 5 ms y 20 ms.
+
+Por esta razón, es necesario implementar un mecanismo de validación temporal (debounce) que garantice que la señal permanezca estable durante un tiempo mayor al rebote (por ejemplo, 10 ms) antes de considerarla como una pulsación válida.
 
 ---
 
@@ -74,7 +89,7 @@ Salidas:
 
 ## 5. Criterios de validación
 
-- Cada tecla produce un valor único  
+- Cada tecla produce un valor único (0 - 16) 
 - No hay rebotes visibles  
 - El sistema es estable  
 
@@ -87,8 +102,4 @@ Salidas:
 - Simulación  
 - Implementación en FPGA  
 
----
 
-## Comentario
-
-No avanzar a la siguiente parte sin validar completamente esta etapa.
