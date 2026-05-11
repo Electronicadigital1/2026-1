@@ -122,7 +122,7 @@ Controlar servo según resultado.
 - Captura correcta de dígitos  
 - Comparación correcta  
 - Servo responde correctamente  
-- LEDs indican estado (Eror,Estado de la puerta(Abierta o cerrada))
+- LEDs indican estado (Error,Estado de la puerta(Abierta o cerrada))
 - Implementacion del sistema real  
 
 ---
