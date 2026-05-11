@@ -143,9 +143,3 @@ Controlar servo según resultado.
 
 ### FPGA
 - Demostración del sistema  
-
----
-
-## 💡 Nota
-
-El registro desplaza en bloques de 4 bits (BCD), no bit a bit.
