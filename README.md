@@ -127,7 +127,7 @@ El laboratorio se desarrolla bajo el siguiente esquema:
   <tr>
     <td>8-9</td>
     <td>LCD 16x2 en modo paralelo</td>
-    <td><a href="/Labs/Lab_4/README.md">Lab_8</a></td>
+    <td><a href="/Labs/Lab_6/README.md">Lab_6</a></td>
     <td><a href="">Link</a></td>
     <td> 13 Nov</td>
     <td>10%</td>

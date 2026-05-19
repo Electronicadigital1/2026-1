@@ -1,0 +1,50 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Tue May 19 04:00:35 2026
+[*]
+[dumpfile] "/home/darkspartan345/2026-1/Ejemplos_Clase/FSM/waveform.vcd"
+[dumpfile_mtime] "Mon May 18 23:18:23 2026"
+[dumpfile_size] 19522
+[savefile] "/home/darkspartan345/2026-1/Ejemplos_Clase/FSM/salida.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] 43 42
+*-21.000000 760000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_top_parqueadero.
+[treeopen] tb_top_parqueadero.dut.
+[sst_width] 233
+[signals_width] 261
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@200
+-Contraseña
+@28
+tb_top_parqueadero.dut.fsm0.clk
+tb_top_parqueadero.bit_serial
+tb_top_parqueadero.dut.password_data[7:0]
+tb_top_parqueadero.send_password.password[7:0]
+tb_top_parqueadero.dut.comp0.data[7:0]
+@200
+-Señales de control
+@28
+tb_top_parqueadero.dut.fsm0.shift_enable
+tb_top_parqueadero.dut.fsm0.comparar_enable
+tb_top_parqueadero.dut.fsm0.servo_abrir
+tb_top_parqueadero.dut.fsm0.servo_cerrar
+@29
+tb_top_parqueadero.dut.fsm0.timer_enable
+@200
+-Transicion de estados
+@28
+tb_top_parqueadero.dut.fsm0.sensor_vehiculo
+tb_top_parqueadero.dut.fsm0.dato_listo
+tb_top_parqueadero.dut.comp0.id_correcto
+tb_top_parqueadero.dut.fsm0.timer_done
+tb_top_parqueadero.dut.fsm0.sensor_salida
+@200
+-Estados
+@28
+tb_top_parqueadero.dut.fsm0.siguiente_estado[2:0]
+tb_top_parqueadero.dut.fsm0.estado_actual[2:0]
+[pattern_trace] 1
+[pattern_trace] 0
